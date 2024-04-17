@@ -1,0 +1,14 @@
+.flotante{
+    background-color: pink;
+    color: blue;
+}
+
+div:nth-child(even) {
+    background-color: pink;
+    color: blue;
+}
+
+div:nth-child(odd):not(:first-child) {
+    background-color: yellow;
+    color: black;
+}
