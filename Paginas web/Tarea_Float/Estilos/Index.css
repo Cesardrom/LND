@@ -1,0 +1,28 @@
+.contenedor{
+    width: 550px;
+    border: gray 10px solid;
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+.imagen{
+    margin-top: 4px;
+    float: left;
+}
+p::first-letter{
+    padding-left: 32px;
+}
+.letracapital::first-letter{
+    border: solid 1px black;
+    height: 40px;
+    margin: 5px;
+    padding: 6px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 48px;
+    color: grey;
+    float: left;
+}
+p{
+    font-size: 19px;
+}
