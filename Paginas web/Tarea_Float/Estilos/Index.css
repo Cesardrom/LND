@@ -1,28 +1,26 @@
-.contenedor{
-    width: 550px;
-    border: gray 10px solid;
-    background-color: orange;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    text-align: justify;
-}
-.imagen{
-    margin-top: 4px;
+img {
     float: left;
-}
-p::first-letter{
-    padding-left: 32px;
-}
-.letracapital::first-letter{
-    border: solid 1px black;
-    height: 40px;
     margin: 5px;
-    padding: 6px;
-    font-family:'Times New Roman', Times, serif ;
-    font-size: 48px;
-    color: grey;
-    float: left;
 }
-p{
-    font-size: 19px;
+
+.contenedor {
+    width: 550px;
+    font-family: Verdana, Arial;
+    background-color: orange;
+    border: 15px outset gray;
+    text-align: justify;
+    padding: 10px;
+}
+
+.letraCapital:first-letter {
+    font-family: Times;
+    color: gray;
+    font-size: 60px;
+    float: left;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+p:not(.letraCapital) {
+    text-indent: 33px;
 }

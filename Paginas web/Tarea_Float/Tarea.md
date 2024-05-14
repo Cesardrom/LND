@@ -61,20 +61,32 @@
 
 ---
 ```css
-.flotante{
-    background-color: pink;
-    color: blue;
-}
+			img {
+				float: left;
+				margin: 5px;
+			}
 
-div:nth-child(even) {
-    background-color: pink;
-    color: blue;
-}
+			.contenedor {
+				width: 550px;
+				font-family: Verdana, Arial;
+				background-color: orange;
+				border: 15px outset gray;
+				text-align: justify;
+				padding: 10px;
+			}
 
-div:nth-child(odd):not(:first-child) {
-    background-color: yellow;
-    color: black;
-}
+			.letraCapital:first-letter {
+				font-family: Times;
+				color: gray;
+				font-size: 60px;
+				float: left;
+				border: 1px solid black;
+				margin: 5px;
+			}
+
+			p:not(.letraCapital) {
+				text-indent: 30px;
+			}
 ```
 ---
 
@@ -86,4 +98,4 @@ div:nth-child(odd):not(:first-child) {
 
 ---
 
-<img src="./Imagenes/2024-04-17_17-07.png"/>
+<img src="./Imagenes/2024-05-14_15-05_1.png"/>
