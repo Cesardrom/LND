@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - LevelUp News</title>
+    <link rel="stylesheet" href="./Estilos/styles.css">
+</head>
+<body style="background-image: url('./Imagenes/20-fondos-de-pantalla-para-pc-gamer-04-1200x675.jpg.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+    <header>
+        <div class="header-content">
+            <h1>LevelUp News</h1>
+            <div class="header-buttons">
+                <a href="Pagina_principal.html" class="button">Inicio</a>
+                <a href="Registro.html" class="button">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-form">
+            <h2>Inicio de Sesión</h2>
+            <form action="dashboard.html" method="post">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <p>¿No tienes una cuenta? <a href="Registro.html">Regístrate aquí</a></p>
+        </section>
+    </main>
+</body>
+</html>
